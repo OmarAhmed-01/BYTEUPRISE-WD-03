@@ -21,17 +21,11 @@
                 <p>Overall time</p>
             </div>
             <hr>
-            <div class="laps-desc">
-                <div class="laps-order">
-                    <p>01</p>
-                    <p>00:12:43</p>
-                    <p>00:18:27</p>
-                </div>
-            </div>
+            <div id="lapsContainer" class="laps-desc"></div>
         </div>
         <div class="controls">
             <button id="lap" onclick="lap()"><img src="./assets/lap.png"></button>
-            <button id="start_stop" onclick="start()"><img src="./assets/play.png" alt=""></button>
+            <button id="start_stop" onclick="toggle()"><img id="buttonImg" src="./assets/play.png" alt=""></button>
             <button id="reset" onclick="reset()"><img src="./assets/stop.png" alt=""></button>
         </div>
     </div>

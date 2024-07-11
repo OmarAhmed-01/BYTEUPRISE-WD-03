@@ -43,11 +43,15 @@ body{
     width: 90%;
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
 }
 .laps .laps-desc{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 15%;
+    max-height: 100px; /* Set a maximum height */
+    overflow-y: scroll; /* Add scroll when content exceeds the height */
 }
 .laps-desc .laps-order{
     display: flex;
