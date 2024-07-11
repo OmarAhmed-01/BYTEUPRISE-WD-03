@@ -18,6 +18,10 @@ body{
     background-color: #FFF8F3;
 }
 .clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
     border: solid 10px #B60071;
     border-radius: 100px;
 }
